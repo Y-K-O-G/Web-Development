@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+.titulo {
+    color: #F7DB6A;
+    font-family: klavika-web, sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-left: 7%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #7AA874;
+}

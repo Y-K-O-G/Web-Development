@@ -1,0 +1,204 @@
+/*First Section*/
+.gradient-background {
+    background: linear-gradient(300deg, #F638DC, #5A3D5C, #200F21);
+    background-size: 180% 180%;
+    animation: gradient-animation 14s ease infinite;
+    height: 100vh;
+}
+
+/*Carousel*/
+.carousel {
+    height: 100%;
+}
+
+.text {
+    color: white;
+    font-size: 3rem;
+}
+
+/*First slide*/
+.name {
+    font-size: 5rem;
+}
+
+.phrase1 {
+    margin-left: 18%;
+    margin-top: 13%;
+    border-right: 4px solid;
+    border-color: transparent;
+    width: 27ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(27);
+}
+
+.phrase2 {
+    margin-left: 50%;
+    margin-top: 12%;
+    border-right: 4px solid;
+    border-color: transparent;
+    width: 21ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: hideText 2s, typing 2s steps(21) 2s;
+}
+
+/*Second Slide*/
+.list {
+    font-size: 2rem;
+    list-style: none;
+}
+
+.tech {
+    margin: 18% auto auto;
+    border-right: 4px solid;
+    border-color: transparent;
+    width: 11ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: hideText 0.5s, typing 1s steps(11) 0.5s;
+}
+
+.item1 {
+    border-right: 4px solid;
+    border-color: transparent;
+    margin-left: 43%;
+    width: 9ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: hideText 1.5s, typing 1s steps(8) 1.5s;
+}
+
+.item2 {
+    border-right: 4px solid;
+    border-color: transparent;
+    margin-left: 43%;
+    width: 7ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: hideText 2.5s, typing 1s steps(7) 2.5s;
+}
+
+.item3 {
+    border-right: 4px solid;
+    border-color: transparent;
+    margin-left: 43%;
+    width: 12ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: hideText 3.5s, typing 1s steps(12) 3.5s;
+}
+
+.item4 {
+    border-right: 4px solid;
+    border-color: transparent;
+    margin-left: 43%;
+    width: 12ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: hideText 4.5s, typing 1s steps(12) 4.5s;
+}
+
+.item5 {
+    border-right: 4px solid;
+    border-color: transparent;
+    margin-left: 43%;
+    width: 9ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: hideText 5.5s, typing 1s steps(9) 5.5s;
+}
+
+
+.logo {
+    width: 2rem;
+}
+
+/*Third slide*/
+.responsive {
+    margin-top: 8%;
+    text-align: center;
+}
+
+.image {
+    align-items: center;
+    display: inline-block;
+    margin: 0 4% 0;
+}
+
+.computer {
+    width: 40%;
+}
+
+.tablet {
+    width: 18%;
+}
+
+.mobile {
+    width: 12%;
+}
+
+/*Animations*/
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+    
+    @keyframes hideText {
+    from {
+    opacity: 0;
+    }
+    
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    10% {
+        border-color: white;
+    }
+        
+    20% {
+        border-color: transparent;
+    }
+        
+    30% {
+        border-color: white;
+    }
+        
+    40% {
+        border-color: transparent;
+    }
+       
+    50% {
+        border-color: white;
+    }
+        
+    60% {
+        border-color: transparent;
+    }
+        
+    70% {
+        border-color: white;
+    }
+    
+    80% {
+        border-color: transparent;
+    }
+        
+    90% {
+        border-color: white;
+    }
+}

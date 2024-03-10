@@ -1,0 +1,37 @@
+.dropdown-toggle {
+    margin-top: 2px;
+}
+
+.icons {
+    height: 4rem;
+}
+
+.van-img {
+    max-height: 30vh;
+}
+
+.van-img-div {
+    overflow: hidden;
+}
+
+
+@media (max-width: 991px) {
+
+    .dropdown-toggle {
+        margin-bottom: 2px;
+        padding-left: 0;
+        text-align: left;
+    }
+
+    .main-div {
+        margin: 0 2px;
+    }
+
+}
+
+@media (max-width: 575px) {
+    .btn {
+        width: 100%;
+    }
+
+}

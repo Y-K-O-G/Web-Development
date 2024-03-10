@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(35, 43, 70);
+    height: 100%;
+    padding-top: 10%;
+}
+
+h3 {
+    color: aquamarine;
+}
+
+.dice {
+    display: none;
+    width: 60%;
+}
+
+.dice6 {
+    display: inline;
+}
+
+.game {
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.player {
+    text-align: center;
+}
+
+.roll {
+    background: none;
+    border-radius: 20px;
+    color: aquamarine;
+    font-family: 'Kalam', cursive;
+    font-size: 16vw;
+}
+
+.score {
+    color: aquamarine;
+    font-size: 10vw;
+}
+
+@media(min-width: 1000px) {
+    body {
+        padding-top: 100px;
+    }
+
+    .roll {
+        font-size: 10rem;
+    }
+
+    .score {
+        font-size: 6rem;
+    }
+}

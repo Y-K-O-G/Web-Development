@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+
+    .first {
+      background-color: #E72F24;
+    }
+
+    .second {
+      background-color: #F0F1EC;
+      grid-column: span 3;
+    }
+
+    .third {
+      background-color: #F0F1EC;
+      grid-row: span 2;
+    }
+
+    .fourth {
+      background-color: #F0F1EC;
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+
+    .fifth {
+      background-color: #004592;
+      border-bottom: 10px solid;
+    }
+
+    .sixth {
+      background-color: #F0F1EC;
+      grid-row: span 2;
+    }
+
+    .seventh {
+      background-color: #F0F1EC;
+    }
+
+    .eighth {
+      background-color: #F9D01E;
+    }
+
+    .ninth {
+      background-color: #232629;
+    }
+
+    .painting {
+      background-color: black;
+      display: grid;
+      gap: 9px;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 22px;
+      height: 748px;
+    }
+
+    .screen {
+      align-items: center;
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="screen">
+    <div class="painting">
+      <div class="first square"></div>
+      <div class="second square"></div>
+      <div class="third square"></div>
+      <div class="fourth square"></div>
+      <div class="fifth square"></div>
+      <div class="sixth square"></div>
+      <div class="seventh square"></div>
+      <div class="eighth square"></div>
+      <div class="ninth square"></div>
+    </div>
+  </div>
+</body>
+
+</html>

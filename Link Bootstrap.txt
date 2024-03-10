@@ -1,0 +1,1 @@
+<link href=httpscdn.jsdelivr.netnpmbootstrap@5.2.0-beta1distcssbootstrap.min.css rel=stylesheet integrity=sha384-0evHeX+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor crossorigin=anonymous

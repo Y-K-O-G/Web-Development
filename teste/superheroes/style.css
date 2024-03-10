@@ -1,0 +1,19 @@
+.div1 {
+    background-color: aqua;
+}
+
+.div2 {
+    background-color: yellow;
+}
+
+.div3 {
+    background-color: pink;
+}
+
+.div4 {
+    background-color: aquamarine;
+}
+
+p:only-of-type{
+    color: red;
+}

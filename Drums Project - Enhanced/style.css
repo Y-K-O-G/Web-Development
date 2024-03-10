@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(58, 66, 66);
+    margin: 0;
+}
+
+h1 {
+    color: rgb(211, 211, 211);
+    font-family: 'Kalam', cursive;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 10vw;
+}
+
+.button {
+    background: none;
+    border: none;
+    color: azure;
+    display: inline;
+    font-size: 7vw;
+    height: 20%;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    width: 20%;
+    z-index: 1;
+}
+
+.b {
+    position: relative;
+    top: 18%;
+    left: 46%;
+}
+
+.c {
+    position: relative;
+    top: 24%;
+    left: -6%;
+}
+
+.f {
+    position: relative;
+    top: -14%;
+    left: -8%;
+}
+
+.g {
+    position: relative;
+    top: -9%;
+    left: -0.5%;
+}
+
+.h {
+    position: relative;
+    top: -6%;
+    left: 6%;
+}
+
+.j {
+    position: relative;
+    top: -12%;
+    left: 17%;
+}
+
+.n {
+    position: relative;
+    top: 22%;
+    left: -3%;
+}
+
+.v {
+    position: relative;
+    top: 22%;
+    left: -62%;
+}
+
+.control {
+    align-items: center;
+    display: flex;
+    height: 50vw;
+    justify-content: center;
+    max-height: 350px;
+    max-width: 600px;
+    width: 90%;
+}
+
+.drum {
+    height: auto;
+    max-width: 600px;
+    position: fixed;
+    width: 90%;
+    z-index: 0;
+}
+
+.main {
+    align-items: center;
+    display: flex;
+    height: 67vh;
+    justify-content: center;
+}
+
+.title {
+    height: 30vh;
+    margin-bottom: -200px;
+    padding-top: 200px;
+    text-align: center;
+}
+
+@media(min-width: 768px) {
+    h1 {
+        font-size: 4.8rem;
+    }
+    
+    .button {
+        font-size: 3.5rem;
+    }
+}
+
+@media only screen and (hover: none) and (pointer: coarse) {
+    .button {
+        color: rgba(0, 0, 0, 0);
+        -webkit-text-stroke-width: 0px;
+    }
+}
