@@ -1,0 +1,15 @@
+{
+  "name": "qrgen",
+  "version": "1.0.0",
+  "description": "qr code generator",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yuri",
+  "license": "ISC",
+  "dependencies": {
+    "qr-image": "^3.2.0"
+  }
+}
